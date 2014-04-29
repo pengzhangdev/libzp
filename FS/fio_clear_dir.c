@@ -18,6 +18,8 @@
 #include <errno.h>
 #include <string.h>
 
+#include "fsio.h"
+
 struct dir_list {
     char *path;
     struct dir_list *next;
